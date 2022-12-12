@@ -9,6 +9,7 @@ header {
     grid-template-columns: 310px auto 310px;
 }
 .header-left-1 {
+    display: grid;
 }
 .header-frame-2 {
     display: grid;
@@ -16,7 +17,7 @@ header {
     justify-items: center;
     width: 310px;
     height: 92px;
-	padding: 18.67% 0px 0px 0px;
+	padding-top: 42px;
 }
 .header-div-1 {
     font-family: sans-serif;
@@ -41,6 +42,7 @@ header {
 	grid-template-columns: repeat(5, 1fr);
     width: 75.95%;
 	align-items: center;
+    justify-items: center;
 	padding-right: 1.1%;
 }
 .header-menu-item {
