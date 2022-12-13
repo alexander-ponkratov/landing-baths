@@ -105,8 +105,7 @@ header {
     display: grid;
     width: 1920px;
     height: 803px;
-    grid-template-rows: repeat(5, 1fr);
-	
+    grid-template-rows: 1fr auto auto 1fr 1fr;
 }
 
 .block-1-text-big {
