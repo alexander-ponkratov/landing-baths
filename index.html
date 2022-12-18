@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/gallery.css?v=1.0">
 
 
   <!--[if lt IE 9]>
@@ -72,26 +73,50 @@
           <div class="block-2-line"></div>
         </div>
         <div class="block-2-bath text">Модульные бани</div>
-        <div class="block-2-gallery">
-          <div class="block-2-gallery-item">
-            <img src="image 2.jpg" alt="image">
-            <div class="block-2-gallery-text text">Банный комплекс №3<br>
-              цена от 1 000 000 руб.</div>
+
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides-grid">
+
+            <div class="mySlides fade">
+              <img src="image 2.jpg">
+              <div class="gallery-text">Банный комплекс №3<br>
+                цена от 1 000 000 руб.</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="image 2.jpg">
+              <div class="gallery-text">Банный комплекс №4<br>
+                цена от 1 500 000 руб.</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="image 2.jpg">
+              <div class="gallery-text">Банный комплекс №5<br>
+                цена от 1 800 000 руб.</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="image 2.jpg">
+              <div class="gallery-text">Банный комплекс №6<br>
+                цена от 2 200 000 руб.</div>
+            </div>
           </div>
-          <div class="block-2-gallery-item">
-            <img src="image 2.jpg" alt="image">
-            <div class="block-2-gallery-text text">Банный комплекс №4<br>
-              цена от 1 500 000 руб.</div>
-          </div>
-          <div class="block-2-gallery-item">
-            <img src="image 2.jpg" alt="image">
-            <div class="block-2-gallery-text text">Банный комплекс №5<br>
-              цена от 1 800 000 руб.</div>
-          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <div class="block-2-gallery-pointer">
-          <img src="pointer.png" alt="Gallery pointer">
+        
+        <!-- The dots/circles -->
+        <!-- сделать количество точек = (количество фото - 2) -->
+        <!-- Нумерация с 1 -->
+        <div class="block-2-gallery-pointer" style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
         </div>
+
       </div>
     </div>
 
@@ -120,6 +145,7 @@
 
   </div>
   <script src="js/scripts.js"></script>
+  <script src="js/gallery.js"></script>
 </body>
 
 </html>

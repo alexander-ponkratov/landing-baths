@@ -164,7 +164,7 @@ header {
 	display: grid;
 	width: 1608px;
     height: 581px;
-	grid-template-rows: auto auto auto 1fr;
+	grid-template-rows: auto auto auto auto auto;
 }
 .block-2-projects {
 	font-weight: 500;
@@ -188,29 +188,6 @@ header {
     line-height: 100%;
     padding-left: 308px;
     padding-top: 30px;
-}
-.block-2-gallery {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-top: 30px;
-    padding-left: 308px;
-    justify-items: center;
-}
-.block-2-gallery-item {
-    display: grid;
-    grid-template-rows: auto auto;
-}
-.block-2-gallery-pic {
-    width: 420px;
-    height: 320px;
-    background: #E8E8E8;
-}
-.block-2-gallery-text {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 100%;
-    text-align: center;
-    align-self: center;
 }
 .block-2-gallery-pointer {
     width: 55px;
