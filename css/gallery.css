@@ -28,8 +28,9 @@
   top: 50%;
   width: auto;
   margin-top: -22px;
+  /*задает размер значка*/
   padding: 16px;
-  color: white;
+  /* color: white; */
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -57,9 +58,9 @@
   line-height: 100%;
   /* color: #f2f2f2; */
   font-size: 24px;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   /* position: absolute; */
-  bottom: 8px;
+  /* bottom: 8px; */
   width: 100%;
   text-align: center;
 }
@@ -72,7 +73,7 @@
   line-height: 100%;
   /* color: #f2f2f2; */
   font-size: 12px;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   /* position: absolute; */
   top: 0;
 }
