@@ -39,9 +39,9 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   //отобразить [n; n+2] фото
-  slides[slideIndex - 1].style.display = "block";
-  slides[slideIndex].style.display = "block";
-  slides[slideIndex + 1].style.display = "block";
+  slides[slideIndex - 1].style.display = "grid";
+  slides[slideIndex].style.display = "grid";
+  slides[slideIndex + 1].style.display = "grid";
   //отобразить точку для n эл-та
   dots[slideIndex - 1].className += " active";
 }
