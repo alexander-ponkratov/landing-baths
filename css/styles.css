@@ -248,7 +248,7 @@ header {
     font-size: 64px;
     line-height: 100%;
     align-items: center;
-    padding-left: 16.14%;
+    padding-left: 322px;
     padding-top: 48px;
 }
 
@@ -270,6 +270,7 @@ header {
     width: 1310px;
     grid-template-columns: auto auto;
     padding-left: 322px;
+    justify-items: center;
 }
 
 .block-4-div-text {
@@ -287,6 +288,7 @@ header {
     width: 593px;
     height: 440px;
     background-image: url("../Frame\ 13.jpg");
+    padding-top: 32px;
 }
 
 
