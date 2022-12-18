@@ -1,5 +1,5 @@
 .slideshow-container * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 /* Slideshow container */
@@ -9,25 +9,21 @@
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
 .mySlides-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.mySlides-grid-el {
+
+.mySlides {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
-  /*position: absolute;*/
+  position: absolute;
   top: 50%;
   width: auto;
   margin-top: -22px;
