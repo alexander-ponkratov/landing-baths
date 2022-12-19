@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background: #D9D9D9;
+    background: #3D405B;
     width: 1920px;
     height: 225px;
     display: grid;
@@ -41,12 +41,13 @@ header {
     width: 230px;
     height: 92px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #FFFFFF;
 }
 
 .header-left-line {
     width: 310px;
     height: 0px;
-    border: 2px solid #000000;
+    border: 2px solid #FFFFFF;
 }
 
 
@@ -72,7 +73,7 @@ header {
     text-align: center;
     height: 39px;
     text-decoration: none !important;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #menu-item-1 {
@@ -113,11 +114,12 @@ header {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
+    color: #FFFFFF;
 }
 
 
 .block-1 {
-    background: #E8E8E8;
+    background: #FFFFFF;
     width: 1920px;
     height: 803px;
 }
@@ -138,6 +140,7 @@ header {
     padding-top: 71px;
     padding-left: 310px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #E07A5F;
 }
 
 .block-1-line-div {
@@ -149,7 +152,7 @@ header {
 .block-1-line {
     width: 942px;
     height: 0px;
-    border: 1px solid #000000;
+    border: 1px solid #E07A5F;
 }
 
 .block-1-ul {
@@ -160,6 +163,7 @@ header {
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
+    color: #E07A5F;
 }
 
 .block-1-button-group {
@@ -179,10 +183,13 @@ header {
     font-size: 24px;
     line-height: 0%;
     border-radius: 5px;
+    color: #E07A5F;
+    background: #FFFFFF;
+    border-color: #E07A5F;
 }
 
 .block-2 {
-    background: white;
+    background: #F4F1DE;
     width: 1920px;
     height: 581px;
 }
@@ -224,7 +231,7 @@ header {
 
 
 .block-3 {
-    background: #E8E8E8;
+    background: #FFFFFF;
     width: 1920px;
     height: 803px;
 }
@@ -234,8 +241,8 @@ header {
     display: grid;
     box-sizing: border-box;
     grid-template-rows: 112px 8px auto;
-    background: white;
-    width: 100%;
+    background: #F4F1DE;
+    width: 1920px;
     height: 717px;
 }
 
@@ -293,10 +300,10 @@ header {
 
 footer {
     display: grid;
-    width: 100%;
+    width: 1920px;
     height: 249px;
     grid-template-rows: 92px 88px;
-    background: #D9D9D9;
+    background: #3D405B;
 }
 
 .footer-contact {
@@ -309,6 +316,7 @@ footer {
     font-weight: 500;
     font-size: 36px;
     line-height: 0%;
+    color: #FFFFFF;
 }
 
 .footer-div {
@@ -329,6 +337,7 @@ footer {
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
+    color: #FFFFFF;
 }
 
 .footer-div-tel {
@@ -339,6 +348,7 @@ footer {
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
+    color: #FFFFFF;
 }
 
 .footer-div-email {
@@ -349,4 +359,5 @@ footer {
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
+    color: #FFFFFF;
 }
