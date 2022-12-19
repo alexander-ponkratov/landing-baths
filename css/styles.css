@@ -134,7 +134,7 @@ header {
 .block-1-text-big {
     width: 632px;
     height: 128px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     padding-top: 71px;
@@ -210,7 +210,7 @@ header {
 }
 
 .block-2-projects {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     padding-left: 308px;
@@ -259,7 +259,7 @@ header {
     height: 64px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     align-items: center;
