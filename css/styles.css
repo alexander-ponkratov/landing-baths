@@ -186,6 +186,14 @@ header {
     color: #E07A5F;
     background: #FFFFFF;
     border-color: #E07A5F;
+    border: 1px solid #E07A5F;
+}
+
+.block-1-button:active {
+    background: #FFFEFF;
+    border: 1px solid #E07A5F;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 
 .block-2 {
